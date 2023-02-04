@@ -1,6 +1,6 @@
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
-import { addTodo, removeTodo } from "./Actions/action";
+import { addTodo, removeTodo } from "./action.js";
 import { useState } from "react";
 
 function App() {
